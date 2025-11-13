@@ -36,7 +36,7 @@ function draw() {
     }
 
     timer++;
-    if (timer > 60) { // after ~1 sec, switch to decrypt
+    if (timer > 30) { // after ~1 sec, switch to decrypt
       timer = 0;
       phase = 2;
       lockIndex = 0;
